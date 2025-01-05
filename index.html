@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CapCook Homepage</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+<!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+ 
+</head>
+
+<body>
+  <header>
+    <div class="bars">
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+  
+      <label id="overlay" for="sidebar-active"></label>
+  
+      <div class="logo"><span><img src="images/CapcookLogo.png" alt="Logo"></span></div>
+  
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <i class="fa solid fa-x"></i>
+        </label>
+  
+        <li class="home-class"><a href="index.html" class="active dd-style"><i class="fa-solid fa-house" id="amb"></i><span class="act">Home</span></a>
+          <div class="dd">
+            <button class="dd-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="dd-content">
+              <a href="index.html #home-section-1" class="first">Home</a>
+              <a href="index.html #home-section-2">Most Saled Products</a>
+              <a href="index.html #home-section-3">Explore, Taste, and Sip</a>
+              <a href="index.html #home-section-4">Food Selection</a>
+              <a href="index.html #home-section-5">Bakery and Restaurant</a>
+              <a href="index.html #home-section-6">My Teams</a>
+            </div>
+          </div>
+          </li>
+        <li class="pro-class"><a href="products.html" class="dd-style"><i class="fa-solid fa-store"></i><span>Products</span></a>
+          <div class="dd">
+            <button class="dd-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="dd-content">
+              <a href="products.html #desserts"> Desserts </a>
+              <a href="products.html #foods"> Foods </a>
+              <a href="products.html #drinks"> Drinks </a>
+              <a href="products.html #product_section4">Feedback</a>
+              <a href="products.html #comments-part"> Comments</a>
+            </div>
+          </div>
+        </li>
+        <a href="services.html"><i class="fa-solid fa-clone"></i><span>Services</span></a>
+        <a href="about.html"><i class="fa-solid fa-users"></i><span>About</span></a>
+        <a href="contact.html"><i class="fa-solid fa-phone"></i><span>Contact</span></a>
+        <a href="login.html"><i class="fa-solid fa-user"></i><span>Login</span></a>
+        <a href="signup.html"><i class="fa-solid fa-right-to-bracket"></i><span>SignUp</span></a>
+  
+      </div>
+    </div>
+   
+  </header>
+  
+  <section id="home-section-1">
+    <div class="home-content">
+      <img src="images/home-bg6.jpg" class="home-bg" alt="home-bg">
+      <img src="images/herologo.jpg" class="hero-logo">
+      <div class="hero">
+         <h1>Welcome to CapCook Sale</h1>
+         <p>We offer a wide variety of delicious foods, desserts, and drinks for all occasions.</p>
+        <button><a href="about.html">Learn More</a></button>
+      </div>
+    </div>
+  </section>
+      
+  <section id="home-section-2">
+      <div class="header">
+        <h1 class="header-title">Discover Our Best-Selling Foods and Delightful Desserts Today!</h1>
+        <p class="header-paragraph">Indulge in the rich flavors of our top-selling dishes, crafted with authentic ingredients. Each bite offers a taste of tradition, perfect if any occasion.</p>
+      </div>
+    <div class="slider" style="
+    --width: 300px;
+    --height: 300px;
+    --quantity: 6;
+  ">
+    <div class="list">
+      <div class="item" style="--position: 1">
+        <div class="product">
+          <img src="images/dessert3.jpg" alt="product1">
+        </div>
+      </div>
+      
+      <div class="item" style="--position: 2">
+        <div class="product">
+          <img src="images/dessert5.jpg" alt="Product 2">
+        </div>
+      </div>
+      
+      <div class="item" style="--position: 3">
+        <div class="product">
+          <img src="images/dessert6.jpg" alt="Product 3">
+        </div>
+      </div>
+      
+      <div class="item" style="--position: 4">
+        <div class="product">
+          <img src="images/image2.jpeg" alt="Product 4">
+        </div>
+      </div>
+      
+      <div class="item" style="--position: 5">
+        <div class="product">
+          <img src="images/image7.jpg" alt="Product 5">
+        </div>
+      </div>
+      
+      <div class="item" style="--position: 6">
+        <div class="product">
+          <img src="images/image8.jpg" alt="Product 6">
+        </div>
+    </div>
+    </div>
+    </div>
+  </section>
+      
+  <section id="home-section-3">
+    <div class="encourage">
+      <div class="encourage-title">
+        <h2>Discover the Flavors of the CapCook: Desserts, Foods, and Beverages Await!</h2>
+      </div>
+      <div class="encourage-section">
+        <div class="encourage-box box1">
+          <h3>Indulge in Authentic CapCook Foods That Will Tantalize Your Taste Buds!</h3>
+          <p>Savor the flavor, join us for a culinary treat. Taste the delight - experience our delicious foods!</p>
+          <button class="encourage-btn"><a class="encourage-btn-link" href="products.html #foods">Explore</a></button>
+        </div>
+        <div class="encourage-box box2">
+          <h3>Satisfy Your Sweet Tooth Qith Our Delectable Desserts!</h3>
+          <p>Treat yourself to sweetness - try our delicious desserts! Satisfy your cravings with our scrumptious sweets!</p>
+          <button class="encourage-btn"><a class="encourage-btn-link" href="products.html #desserts">Taste</a></button>
+        </div>
+        <div class="encourage-box box3">
+          <h3>Quench Your Thirst with Our Refreshing Selection of CapCook Beverage!</h3>
+          <p>Taste the difference - try our specialty drinks! Refresh with us - explore our delicious beverage!</p>
+          <button class="encourage-btn"><a class="encourage-btn-link" href="products.html #drinks">Sip</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+  <section id="home-section-4">
+    <div class="home-shop">
+      <div class="home-shop-section">
+        <h1>Explore Our Authentic CapCook Food Selection</h1>
+        <p>Discover the rich flavors with our handpicked selection of traditional foods and desserts. Each product is crafted with care, ensuring an authentic taste experience.</p>
+        <div class="home-products-section">
+          <div class="home-pbox">
+            <h4>Featured Products</h4>
+            <p>Taste the tradition of our best-selling delicacies.</p>
+          </div>
+          <div class="home-pbox">
+            <h4>Best Sellers</h4>
+            <p>Shop our top-rated products love by our customers.</p>
+          </div>
+        </div>
+        <div class="home-button">
+          <button class="shop-btn"><a href="products.html">Shop</a></button>
+          <button class="explore-btn"><a href="about.html">Explore —></a></button>
+        </div>
+      </div>
+      <div class="home-shop-image">
+        <img src="images/image15.jpg" alt="home-shope-image">
+      </div>
+    </div>
+  </section>
+      
+  <section id="home-section-5">
+        <!-- Visuals -->
+        <h1>My Bakery and Restaurant</h1>
+        <div class="visuals">
+          <div class="image-container" id="container1">
+            <div class="image-building">
+              <a href="#image1"><img src="images/Bakery1.png"/></a>
+            </div>
+            <p class="image-description">This Bakery House is located at Tagbilaran City, Bohol, Philippines</p>
+          </div>
+          <div class="image-container" id="container2">
+            <div class="image-building">
+              <a href="#image2"><img src="images/Bakery2.jpg"/></a>
+            </div>
+            <p class="image-description">This Bakery House is located at Tubigon, Bohol, Philippines</p>
+          </div>
+          <div class="image-container" id="container3">
+            <div class="image-building">
+              <a href="#image3"><img src="images/restaurant.jpg"/></a>
+            </div>
+            <p class="image-description">This Restaurant is located in Sto. Niño, Talibon, Bohol, Philippines.</p>
+          </div>
+          
+          <div class="lightbox" id="image1">
+            <a href="#container1" class="close">CLOSE</a>
+            <div class="lightbox-content">
+              <img src="images/Bakery1.png" />
+            </div>
+          </div>
+          <div class="lightbox" id="image2">
+            <a href="#container2" class="close">CLOSE</a>
+            <div class="lightbox-content">
+              <img src="images/Bakery2.jpg" />
+            </div>
+          </div>
+          <div class="lightbox" id="image3">
+            <a href="#container3" class="close">CLOSE</a>
+            <div class="lightbox-content">
+              <img src="images/restaurant.jpg" />
+            </div>
+
+          </div>
+          
+        
+        </div>
+      </section>
+      
+<section id="home-section-6" class="team">
+    <div class="team-title">
+      <div class="title">
+        <h1 class="title-name">My Teams</h1>
+      </div>
+      <div class="title-description">
+        <p class="title-description-content">Meet the dedicated individuals behind our culinary journey.</p>
+      </div>
+    </div> 
+    
+    
+<section class="container">
+  <div class="card__container swiper">
+    <div class="card__content">
+      <div class="swiper-wrapper">
+        <article class="card__article swiper-slide" id="team-member1">
+          <div class="card__image">
+            <img src="images/kago.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+            <h3 class="card__name">Christian Capin</h3>
+            <p class="card__prof">Head Chef</p>
+            <p class="card__description">
+              Christian brings over a decade of experience in traditional Philippine cooking
+            </p>
+
+            <a href="#team1" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member2">
+          <div class="card__image">
+            <img src="images/jakeprof.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+          
+          
+          
+          
+
+          <div class="card__data">
+            <h3 class="card__name">Cyrus Jake Falar</h3>
+            <p class="card__prof">Marketing Manager</p>
+            <p class="card__description">
+              Jake is passionate about sharing Filipino culture through food and storytelling.
+            </p>
+
+            <a href="#team2" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member3">
+          <div class="card__image">
+            <img src="images/vincentprof.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+            <h3 class="card__name">Vincent Jay Cajes</h3>
+            <p class="card__prof">Operations Lead</p>
+            <p class="card__description">
+              Vincent ensures our operations run smoothly from sourcing to delivery.
+            </p>
+
+            <a href="#team3" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member4">
+          <div class="card__image">
+            <img src="images/jonathanprof.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+            <h3 class="card__name">Jonathan Cajes</h3>
+            <p class="card__prof">Customer Support</p>
+            <p class="card__description">
+              Jonathan is dedicated to providing exceptional service to our valued customers..
+            </p>
+
+            <a href="#team4" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member5">
+          <div class="card__image">
+            <img src="images/geraldprofile.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+            <h3 class="card__name">Gerald Degamo</h3>
+            <p class="card__prof">Content Creator</p>
+            <p class="card__description">
+              Gerald crafts engaging contents that showcases the beauty og Philippine cuisine.
+            </p>
+
+            <a href="#team5" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member6">
+
+          <div class="card__image">
+
+            <img src="images/germenprof.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+            <h3 class="card__name">Joseph Germen Capin</h3>
+            <p class="card__prof">Web Developer</p>
+            <p class="card__description">
+              Germen builds and maintains our website to enhance your shopping experience.</p>
+
+            <a href="#team6" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member7">
+          <div class="card__image">
+            <img src="images/andreyprofile.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+            <h3 class="card__name">Mark Andrey Calimot</h3>
+            <p class="card__prof">Social Media</p>
+            <p class="card__description">
+              Mark Andrey connects with our community, sharing delicious recipes and updates.</p>
+
+            <a href="#team7" class="card__button">View More</a>
+          </div>
+        </article>
+
+        <article class="card__article swiper-slide" id="team-member8">
+          <div class="card__image">
+            <img src="images/jeyraldprof.jpg" alt="image" class="card__img">
+            <div class="card__shadow"></div>
+          </div>
+          <div class="card__data">
+            <h3 class="card__name">Jeyrald Codera</h3>
+            <p class="card__prof">Accounting Specialist</p>
+            <p class="card__description">
+              Jerald handles financial transactions , invoicing, and tax compliance.</p>
+
+            <a href="#team8" class="card__button">View More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="swiper-button-next">
+      <i class="ri-arrow-right-s-line"></i>
+    </div>
+
+    <div class="swiper-button-prev">
+      <i class="ri-arrow-left-s-line"></i>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+</section>
+
+          <div class="teambox" id="team1">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member1" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/kago.jpg" alt="team-image1"/>
+                </div>
+                <div class="team-data">
+                  <h1>Christian Capin</h1>
+                  <h2>Head Chef</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:capinchristian@gmail.com"><strong>• Email: </strong><br><span>capinchristian@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/profile.php?id=100079078547049" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/chist_tzy/profilecard/?igsh=a3Q3YTA2M24zaGNv" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@capinchristian0?_r=1&_d=e1acl97d0l8cc6&sec_uid=MS4wLjABAAAAMzvm9JzY2OJH4zYGQQaXJLCRM_jvsm5x774vzdmN_avjGXRFerWAomADd-FU7K4F&share_author_id=7088535778138014746&sharer_language=en&source=h5_t&u_code=e1ae25712ff8dl&timestamp=1734827048&user_id=7088535778138014746&sec_user_id=MS4wLjABAAAAMzvm9JzY2OJH4zYGQQaXJLCRM_jvsm5x774vzdmN_avjGXRFerWAomADd-FU7K4F&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7431156605917611783&share_link_id=f74e9d03-e4f1-4c3f-96ba-577faab3fae9&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team2">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member2" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/jakeprof.jpg" alt="team-image2" />
+                </div>
+                <div class="team-data">
+                  <h1>Cyrus Jake Falar</h1>
+                  <h2>Marketing Manager</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:cyrusjekoy@gmail.com"><strong>• Email: </strong><br><span>cyrusjekoy@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/cyrus.jake.67890" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#team2" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@jekoykoy8?_r=1" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team3">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member3" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/vincentprof.jpg" alt="team-image3" />
+                </div>
+                <div class="team-data">
+                  <h1>Vincent Jay Cajes</h1>
+                  <h2>Operations Lead</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:"><strong>• Email: </strong><br><span>capcookph@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/vincentjay.cajes" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@vj.02cajes?_t=8sQM1FysNLc&_r=1" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team4">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member4" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/jonathanprof.jpg" alt="team-image4" />
+                </div>
+                <div class="team-data">
+                  <h1>Jonathan Cajes</h1>
+                  <h2>Customer Support</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:"><strong>• Email: </strong><br><span>capcookph@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/jonathan.husain1654" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team5">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member5" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/geraldprofile.jpg" alt="team-image5" />
+                </div>
+                <div class="team-data">
+                  <h1>Gerald Degamo</h1>
+                  <h2>Content Creator</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:degamogerald@gmail.com"><strong>• Email: </strong><br><span>degamogerald@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/kingge.degamo" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team6">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member6" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/germenprof.jpg" alt="team-image6" />
+                </div>
+                <div class="team-data">
+                  <h1>Joseph Germen Capin Jr.</h1>
+                  <h2>Web Developer</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto: germenjrcapin@gmail.com"><strong>• Email: </strong><br><span>germenjrcapin@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/profile.php?id=100077518094904" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/menskietzy?igsh=YzljYTk1ODg3Zg==" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@menskietzy?_r=1&_d=ef8b911938a05b&sec_uid=MS4wLjABAAAATWOY7k8Q9jfTA4X5SNpndl8aIzS7WWo2drmT7i3h8TxcHbiJNdnDU_3gvMc7l47Y&share_author_id=7061869739479712770&sharer_language=en&source=h5_t&u_code=e05e95ej224ihh&timestamp=1734827429&user_id=7061869739479712770&sec_user_id=MS4wLjABAAAATWOY7k8Q9jfTA4X5SNpndl8aIzS7WWo2drmT7i3h8TxcHbiJNdnDU_3gvMc7l47Y&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7447875664941025025&share_link_id=d8db156e-690e-458f-8ed8-aefc3f5c7671&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team7">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member7" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/andreyprofile.jpg" alt="team-image7" />
+                </div>
+                <div class="team-data">
+                  <h1>Mark Andrey Calimot</h1>
+                  <h2>Socia Media</h2>
+                  <p class="address"><b>• Address: </b><br><span>Santo Niño, Talibon, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:markandreycalimot@gmail.com"><strong>• Email: </strong><br><span>markandreycalimot@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/profile.php?id=100088598965872" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="teambox" id="team8">
+            <div class="teambox-content">
+              <div class="team-close">
+                <a href="#team-member8" class="team-close-btn"><i class="fa solid fa-x"></i></a>
+              </div>
+              <div class="team-info">
+                <div class="team-image">
+                  <img src="images/jeyraldprof.jpg" alt="team-image8" />
+                </div>
+                <div class="team-data">
+                  <h1>Jeyrald Codera</h1>
+                  <h2>Accounting Specialist</h2>
+                  <p class="address"><b>• Address: </b><br><span>Canmangao, Pitogo, Bohol, Philippines</span></p>
+                  <p class="email"><a href="mailto:jeyraldcalma02@gmail.com"><strong>• Email: </strong><br><span>jeyraldcalma02@gmail.com</span></a></p>
+                  <div class="Smedia-links">
+                    <a href="https://www.facebook.com/jeyrald.calmacodera" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/jeyrald.x/profilecard/?igsh=MWxncWtleHZmaGYzMQ==" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@4smodeuos?_t=ZS-8sPxR2PSi2r&_r=1" class="tt"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  <section id="home-section-7">
+          <div class="media-logo">
+            <h1>CapCook</h1>
+          </div>
+          <div class="social-media">
+            <div class="company" id="PAP">
+              <div class="company-title">
+                <p>Company</p>
+              </div>
+              <li><a class="nav-links" href="index.html">Home</a></li>
+              <li><a class="nav-links" href="products.html">Products</a></li>
+              <li><a class="nav-links" href="services.html">Services</a></li>
+              <li><a class="nav-links" href="about.html">About Us</a></li>
+              <li><a class="nav-links" href="contact.html">Contact Us</a></li>
+              <li><a class="nav-links" href="#pap-modal">Privacy and Policy</a></li>
+                
+                <div class="papbox" id="pap-modal">
+                  <div class="papbox-main">
+                    <div class="papclose">
+                      <a href="#PAP" class="close"><i class="fa solid fa-x"></i></a>
+                    </div>
+                    <div class="papbox-content">
+                      <h2>CapCook Privacy And Policy</h2>
+                      <p><strong>Effective Date:</strong> December 25, 2024</p>
+                      <br><br>
+                      <p>At CapCook, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your personal data when you visit or make a purchase from our online store. By accessing and using our website, you agree to the terms outlined in this policy.</p><br>
+                      <p><strong>1. Information We Collect </strong><br>To provide a seamless shopping experience, we collect the following types of information:</p><br>
+                      <p class="a1"><strong>a. Personal Information</strong><br>When you create an account, make a purchase, or interact with us in any way, we may collect:</p> <br>
+                      <p class="a1-info">• Name <br>• Email address <br>• Phone number <br>• Shipping and billing address <br>• Payment information (credit/debit card details, etc.) <br>• Order history</p><br>
+                      <p class="a1"><strong>b. Usage Data </strong> <br> We may automatically collect certain information when you visit our website, including:</p><br>
+                      <p class="a1-info">• IP Address <br>• Browser type<br>• Device type<br>• Pages visited on our site <br>• Time spent on the site <br>• Referral source (how you arrived at our site)</p><br>
+                      <p>This information is collected using cookies and similar tracking technologies.</p><br>
+                      <p class="a1"><strong>c. Payment Information</strong><br>We use a secure third-party payment processor for transactions. We do not store your full payment information (credit card numbers, etc.) but may retain transaction details for order processing and customer service purposes.</p><br><br>
+                      <p><strong>2. How We Use Your Information</strong><br>We use the information we collect for the following purposes:</p><br>
+                      <p class="a1"><strong>To Process Transactions: </strong>We use your personal information to process and fulfill orders, including sending confirmations and receipts. <br><br><strong>To Improve Customer Service:</strong> Your information helps us respond more effectively to your requests and provide better customer service.<br><br><strong>To Personalize Your Experience:</strong> We may use the data to customize your shopping experience, offering product recommendations based on your preference.<br><br><strong>To Send Marketing Communications:</strong> With your consent, we may send promotional emails about new products, offers, or news. You can opt-out at any time.<br><br><strong>To Improve Our Website:</strong> We analyze how users interact with our site to improve user experience, content, and functionality.</p><br><br>
+                      <p><strong>3. How We Protect Your Information</strong><br>We implement a variety of security measures to ensure the safety of your personal information when you make a purchase or enter personal data:</p><br>
+                      <p class="a1"><strong>Encryption:</strong> We use SSL (Secure Socket Layer) encryption technology to protect sensitive information during transmission.<br><br><strong>Access Controls:</strong> Only authorized personnel have access to your data.<br><br><strong>Payment Security:</strong> All payments are processed securely by third-party payment processors. We do not store full payment details on our servers.While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security due to the inherent risks of online transactions.</p><br><br>
+                      <p><strong>4. Cookies and Tracking Technologies</strong><br>We use cookies, web beacons, and other tracking technologies to enhance your shopping experience, analyze site usage, and deliver targeted advertising. Cookies are small text files stored on your device that help us recognize you during subsequent visits. You can control cookie settings through your browser, though disabling cookies may impact your ability to use certain features of our website.</p><br><br>
+                      <p><strong>5. Sharing Your Information</strong><br>We do not sell, trade, or rent your personal information to third parties. However, we may share your data in the following situations:</p><br>
+                      <p class="a1"><strong
+                     >Service Providers:</strong> We may share your information with trusted third-party companies that assist with website operations, payment processing, shipping, marketing, and customer service.<br><br><strong>Legal Requirements:</strong> We may disclose your information to comply with legal obligations, such as responding to a subpoena or investigating fraudulent activities. <br><br><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of CapCook, your personal data may be transferred as part of the transaction.</p><br><br>
+                      <p><strong>6. Your Rights and Choices</strong><br>You have several rights regarding your personal data:</p><br>
+                      <p class="a1"><strong>Access and Correction: </strong>You can request to view, update, or correct your personal information by logging into your account or contacting us directly.<br><br><strong>Data Deletion: </strong>You may request that we delete your personal information, subject to any legal or contractual obligations.<br><br><strong>Opt-Out of Marketing: </strong> You can opt-out of receiving promotional emails by following the "unsubscribe" link in our emails or contacting us directly.<br><br><strong>Cookie Preferences: </strong>You can manage your cookie preferences through your browser settings.</p><br><br>
+                      <p><strong>7. Third-Party Links</strong><br>Our website may contain links to external sites that are not operated by CapCook. We are not responsible for the content or privacy practices of these third-party websites. We encourage you to review their privacy policies before sharing any personal information.</p><br><br>
+                      <p><strong>8. Children's Privacy</strong><br>CapCook is not intended for children under the age of 13. We do not knowingly collect or solicit personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.</p><br><br>
+                      <p><strong>9. Changes to This Privacy Policy</strong><br>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Effective Date." We encourage you to review this policy periodically to stay informed about how we are protecting your information.</p><br><br>
+                      <p><strong>10. Contact Us</strong><br>If you have any questions or concerns about this Privacy Policy or our practices, please contact us at:</p><br>
+                      <p class="a1">Name: CapCook <br>Address: Santo Niño, Talibon, Bohol, Philippines <br>Email: capcookph@gmail.com <br>Number: 09926346667</p><br>
+                      <p>Thank you for choosing CapCook! We are committed to providing you with a safe and enjoyable shopping experience.</p><br><br>
+                      <p>This Privacy Policy was last updated on <strong>December 25,2024.</strong></p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+            </div>
+            <div class="help" id="FAQ">
+              <div class="help-title">
+                <p>Get Help</p>
+              </div>
+              <ul>
+                <li><a class="help-links" href="#faq-modal">FAQ</a></li>
+                
+                 <div class="papbox" id="faq-modal">
+                  <div class="faqbox-main">
+                   <div class="papclose">
+                    <a href="#FAQ" class="close"><i class="fa solid fa-x"></i></a>
+                   </div>
+                   <div class="papbox-content">
+                    <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                    <div class="faq-item">
+                     <h2>What is CapCook?</h2>
+                     <p class="faq-answer">CapCook is your one-stop online store for a wide variety of delicious desserts, foods, and refreshing drinks. We bring the taste of quality, freshly made products right to your doorstep.</p>
+                    </div>
+                    <div class="faq-item">
+                     <h2>How can I place an order?</h2>
+                     <p class="faq-answer">Simply browse through our categories (Desserts, Foods, Drinks), select your items, and proceed to checkout. We offer multiple payment options for your convenience.</p>
+                    </div>
+                    <div class="faq-item">
+                     <h2>What payment methods do you accept?</h2>
+                     <p class="faq-answer">We accept all major credit and debit cards, PayPal, and other secure online payment methods.</p>
+                    </div>
+                    <div class="faq-item">
+                     <h2>Do you offer delivery?</h2>
+                     <p class="faq-answer">Yes, we deliver to various locations. Delivery fees may vary based on your location. You can check our delivery options during the checkout process.</p>
+                    </div>
+                    <div class="faq-item">
+                     <h2>Can I cancel or modify my order?</h2>
+                     <p class="faq-answer">Orders can be canceled or modified within 30 minutes of placing them. After this period, we cannot guarantee any changes.</p>
+                    </div>
+                    <script src="js/script2.js"></script>
+                   </div>
+                  </div>
+                 </div>
+                  
+                <li><a class="help-links" href="#">Shipping</a></li>
+                <li><a class="help-links" href="#">Returns</a></li>
+                <li><a class="help-links" href="#">Payment Options</a></li>
+                <li><a class="help-links" href="login.html">Login</a></li>
+                <li><a class="help-links" href="signup.html">Sign up</a></li>
+              </ul>
+            </div>
+            <div class="media-links">
+              <div class="follow-title">
+                <p>Follow Us</p>
+              </div>
+              <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100077518094904" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/menskietzy?igsh=YzljYTk1ODg3Zg==" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://x.com/XenpaiTzy?t=5X-q408oEn5XV-4rfTF8zA&s=09" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://youtube.com/@menmenofficial8923?si=eDNSz5sy-mAhnxmh" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>l
+      </section>
+      
+  <section class="footer">
+        <p>Created by</p><h4>CapCook</h4><p> | 2024 All rights reserved</p>
+      </section>
+      
+  
+  <script src="js/script2.js"></script>
+  
+</body>
+
+</html>

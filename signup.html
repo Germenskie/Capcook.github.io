@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/signup.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="bars">
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+  
+      <label id="overlay" for="sidebar-active"></label>
+  
+      <div class="logo"><span><img src="images/CapcookLogo.png" alt="Logo"></span></div>
+  
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <i class="fa solid fa-x"></i>
+        </label>
+  
+        <li class="home-class"><a href="index.html" class="dd-style"><i class="fa-solid fa-house"></i><span>Home</span></a>
+          <div class="dd">
+            <button class="dd-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="dd-content">
+              <a href="index.html #home-section-1" class="first">Home</a>
+              <a href="index.html #home-section-2">Most Saled Products</a>
+              <a href="index.html #home-section-3">Explore, Taste, and Sip</a>
+              <a href="index.html #home-section-4">Food Selection</a>
+              <a href="index.html #home-section-5">Bakery and Restaurant</a>
+              <a href="index.html #home-section-6">My Teams</a>
+            </div>
+          </div>
+        </li>
+        <li class="pro-class"><a href="products.html" class="dd-style"><i class="fa-solid fa-store"></i><span>Products</span></a>
+          <div class="dd">
+            <button class="dd-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="dd-content">
+              <a href="products.html #desserts"> Desserts </a>
+              <a href="products.html #foods"> Foods </a>
+              <a href="products.html #drinks"> Drinks </a>
+              <a href="products.html #product_section4">Feedback</a>
+              <a href="products.html #comments-part"> Comments</a>
+            </div>
+          </div>
+        </li>
+        <a href="services.html"><i class="fa-solid fa-clone"></i><span>Services</span></a>
+        <a href="about.html"><i class="fa-solid fa-users"></i><span>About</span></a>
+        <a href="contact.html"><i class="fa-solid fa-phone"></i><span>Contact</span></a>
+        <a href="login.html"><i class="fa-solid fa-user"></i><span>Login</span></a>
+        <a href="signup.html" class="active"><i class="fa-solid fa-right-to-bracket"></i><span class="s-up">SignUp</span></a>
+  
+      </div>
+    </div>
+   
+  </header>
+ <section class="signup-section">
+   <div class="cakes">
+     <div class="set">
+       <div><img src="images/cake_1.png"></div>
+       <div><img src="images/cake_2.png"></div>
+       <div><img src="images/cake_3.png"></div>
+       <div><img src="images/cake_4.png"></div>
+       <div><img src="images/cake_5.png"></div>
+       <div><img src="images/cake_6.png"></div>
+       <div><img src="images/cake_7.png"></div>
+       <div><img src="images/cake_8.png"></div>
+     </div>
+   </div>
+   <img src="images/bg.jpg" class="bg">
+   <img src="images/boy.png" class="boy">
+   <img src="images/trees.png" class="trees">
+   
+   <div class="signup-box">
+     <form action="">
+       <h2>Sign Up</h2>
+       <div class="signup-input-box">
+         <input type="text" placeholder="First Name" required name="" id="#">
+         <i class="fa-solid fa-user"></i>
+       </div>
+       
+       <div class="signup-input-box">
+        <input type="text" placeholder="Last Name" required name="" id="#">
+        <i class="fa-solid fa-user"></i>
+       </div>
+
+       <div class="signup-input-box">
+        <input type="phone" placeholder="Phone" required name="" id="#">
+        <i class="fa-solid fa-phone"></i>
+       </div>
+
+       <div class="signup-input-box">
+         <span class="icon"><ion-icon name="mail"></ion-icon></span>
+         <input type="email" placeholder="Email" required name="" id="#">
+ 
+       </div>
+       <div class="signup-input-box">
+         <input type="password" placeholder="Password" class="password-input" name="password" id="password" required />
+         <i id="togglepassword" class="fa-solid fa-eye-slash"></i>
+       </div>
+       <script src="js/script.js"></script>
+
+       <div class="signup-input-box">
+        <input type="password" placeholder="Confirm Password" class="password-input" name="password" id="password" required />
+        <i id="togglepassword" class="fa-solid fa-eye-slash"></i>
+       </div>
+      <script src="js/script.js"></script>
+
+      <div class="gender">
+        <label  class="male" for=""><input type="checkbox" name="gender-male" id=""> Male</label>
+        <label class="female" for=""><input type="checkbox" name="gender-male" id=""> Female</label>
+      </div>
+       <button type="submit" class="signup-button">Create</button>
+       <div class="register-link">
+         <p>Already have an account? <a href="login.html">login</a></p>
+       </div>
+     </form>
+   </div>
+   <script type="text/javascript" src="js/script.js"></script>
+   <script src="js/script1.js"></script>
+ </section>
+ 
+ 
+ <section class="footer" id="LS-footer">
+        <p>Created by</p><h4>CapCook</h4><p> | 2024 All rights reserved</p>
+      </section>
+      
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

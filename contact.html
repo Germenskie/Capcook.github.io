@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CapCook Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  
+</head>
+
+<body> 
+  <header>
+    <div class="bars">
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+  
+      <label id="overlay" for="sidebar-active"></label>
+  
+      <div class="logo"><span><img src="images/CapcookLogo.png" alt="Logo"></span></div>
+  
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <i class="fa solid fa-x"></i>
+        </label>
+  
+        <li class="home-class"><a href="index.html" class="dd-style"><i class="fa-solid fa-house"></i><span>Home</span></a>
+          <div class="dd">
+            <button class="dd-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="dd-content">
+              <a href="index.html #home-section-1" class="first">Home</a>
+              <a href="index.html #home-section-2">Most Saled Products</a>
+              <a href="index.html #home-section-3">Explore, Taste, and Sip</a>
+              <a href="index.html #home-section-4">Food Selection</a>
+              <a href="index.html #home-section-5">Bakery and Restaurant</a>
+              <a href="index.html #home-section-6">My Teams</a>
+            </div>
+          </div>
+          </li>
+        <li class="pro-class"><a href="products.html" class="dd-style"><i class="fa-solid fa-store"></i><span>Products</span></a>
+          <div class="dd">
+            <button class="dd-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="dd-content">
+              <a href="products.html #desserts"> Desserts </a>
+              <a href="products.html #foods"> Foods </a>
+              <a href="products.html #drinks"> Drinks </a>
+              <a href="products.html #product_section4">Feedback</a>
+              <a href="products.html #comments-part"> Comments</a>
+            </div>
+          </div>
+        </li>
+        <a href="services.html"><i class="fa-solid fa-clone"></i><span>Services</span></a>
+        <a href="about.html"><i class="fa-solid fa-users"></i><span>About</span></a>
+        <a href="contact.html" class="active"><i class="fa-solid fa-phone"></i><span>Contact</span></a>
+        <a href="login.html"><i class="fa-solid fa-user"></i><span>Login</span></a>
+        <a href="signup.html"><i class="fa-solid fa-right-to-bracket"></i><span>SignUp</span></a>
+  
+      </div>
+    </div>
+   
+  </header>
+  <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Us</h2> 
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch with CapCook!</div>
+                    <p class="text-comment">Have a question, comment, or recipe to share? We'd love to hear from you! <br>
+                    Contact us at CapCook and let's cook up something amazing together!</p>
+                    <div class="icons">
+                      <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                          <div class="head">Name:</div>
+                          <div class="sub-title">CapCook PH</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                          <div class="head">Address:</div>
+                          <div class="sub-title">Santo Niño, Talibon, Bohol, Philippines</div>
+                        </div>
+                      </div>
+                        
+                      <div class="row">
+                        <i class="fas fa-phone"></i>
+                        <div class="info">
+                          <div class="head">
+                            Phone:
+                          </div>
+                          <div class="sub-title">
+                           <a href="tel:09926346667">0992 634 6667</a>
+                          </div>
+                        </div>
+                      </div>
+                        
+                      <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                          <div class="head">Email:</div>
+                          <div class="sub-title"><a href="mailto:capcookph@gmail.com">capcookph@gmail.com</a></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Us</div>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                     <input type="hidden" name="access_key" value="32f97534-ee46-409c-ae5c-2f310a90bcef">
+                     
+                    
+                     
+                        <div class="fields">
+                            <div class="field name">
+                              <input type="text" name="name" placeholder="Name" required>
+                               
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <p>Created by</p><h4>CapCook</h4><p> | 2024 All rights reserved</p>
+      </section>
+      
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
