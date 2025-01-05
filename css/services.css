@@ -1,0 +1,138 @@
+.services-section {
+  padding: 5rem 2rem;
+  text-align: center;
+  width: 100vw;
+  display: block;
+  background-color: #111;
+}
+.services-section .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.services-section .title h1 {
+  color: #fff;
+  font-size: 36px; 
+  margin-bottom: 10px;
+}
+
+.services-section .services-occation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 20px 0 ;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  align-content: center
+}
+@keyframes services-appear{
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.services-section .services-occation .catering, .orders, .delivery {
+  display: block;
+  padding: 10px 10px 20px 10px;
+  max-width: 400px;
+  background: linear-gradient(to bottom, #3D3D3D, #111);
+  border-radius: 5px;
+  transition: all .25s ease-in-out;
+  animation: services-appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.services-section .services-occation .catering:hover, .orders:hover, .delivery:hover{
+  background: linear-gradient(to bottom, #870000, #000);
+  transform: translateY(-10px);
+}
+
+
+.services-section .catering strong, .orders strong, .delivery strong {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.services-section .services-occation .catering p, .orders p, .delivery p{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.services-section .services-occation .catering img, .orders img, .delivery img  {
+  width: 100%;
+  height: auto;
+}
+.promos-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.promos-section  .services_blog {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+.promos-section  .services_blog::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  height: 3px;
+  width: 100%;
+}
+.promos-section  .services_blog::after {
+  content: "Our Promotions";
+  position: absolute;
+  font-size: 1.25rem;
+  font-weight: 500;
+  bottom: -15px;
+  padding: 5px;
+  color: crimson;
+  background-color: #111;
+}
+
+.video-showcase {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+.video-showcase .video1, .video2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.video-showcase .video1 video,
+.video-showcase .video2 video {
+  max-width: 100%;
+  height: auto;
+}

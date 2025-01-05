@@ -1,0 +1,140 @@
+
+.signup-box h2{
+    font-size: 2.5em;
+    color: #DE4236;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.signup-input-box{
+    position: relative;
+    width: 300px;
+    margin: 20px 0;
+    border-bottom: 2px solid #8f2c24;
+}
+.fa-eye-slash{
+  color: #B9382E;
+  position: absolute;
+  right: 8px;
+  font-size: 1.5em;
+}
+.signup-input-box .fa-eye-slash,
+.signup-input-box .fa-user, 
+.signup-input-box .fa-phone {
+    position: absolute;
+    right: 8px;
+    color: #DE4236;
+    font-size: 1.5em;
+    line-height: 57px;
+}
+
+.signup-input-box input{
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.25em;
+    color: #DE4236;
+    padding: 0 35px 0 5px;
+    text-shadow: 1px 1px 1px #000;
+}
+.signup-input-box .icon{
+    position: absolute;
+    right: 8px;
+    color: #DE4236;
+    font-size: 1.5em;
+    line-height: 57px;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+.gender input {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transform: translateY(3px);
+    accent-color: crimson;
+}
+
+label.male, 
+label.female {
+    color: crimson;
+    text-shadow: 1px 1px 1px black;
+}
+.birthdate {
+    position: relative;
+    width: 300px;
+    margin: 20px 0;
+    border-bottom: 2px solid #8f2c24;
+}
+.birthdate input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.25em;
+    color: #DE4236;
+    padding: 0 35px 0 5px;
+    text-shadow: 1px 1px 1px #000;
+}
+.birthdate input [type=date] {
+    color: crimson;
+    -webkit-datepicker-theme: crimson;
+}
+.remember-forget{
+    margin: -15px 0 15px;
+    font-size: 1em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+::-webkit-input-placeholder{
+  color: #DE4236;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.remember-forget a{
+    color: #DE4236;
+    text-decoration: none;
+    text-shadow: .75px .75px .75px #000;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.signup-box .signup-button{
+    width: 100%;
+    height: 40px;
+    background: #BE3A2F;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+.signup-box .signup-button:hover{
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,.08), 5px 5px 5px rgba(0,0,0,.9), 10px 20px 30px rgba(0,0,0,.25), inset -5px -5px 5px rgba(0,0,0,.6);
+}
+.register-link{
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register-link p a{
+    color: #DE4236;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: .75px .75px .75px #000;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}

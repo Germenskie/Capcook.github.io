@@ -1,0 +1,340 @@
+.about-section{
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 4em 0;
+}
+.about-us .about-us-title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .about-us-title h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 50px; 
+  padding: 20px 20px;
+}
+.about-us .about-us-title h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+.about-us .about-us-title h1::after {
+  content: "Learn More";
+  position: absolute;
+  bottom: -15px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background-color: #111;
+  padding: 5px;
+  color: crimson;
+}
+
+
+.about-us p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #E5E5E5;
+}
+
+@keyframes about_appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes about_appear_left{
+  from{
+    opacity: 0;
+    transform: translateX(-100%)
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0)
+  }
+}
+@keyframes about_appear_right{
+  from{
+    opacity: 0;
+    transform: translateX(100%)
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0)
+  }
+}
+
+
+
+/* Featured Products Styles */
+
+.b-story, .mission, .values, .usp{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 20px;
+  width: 100%;
+}
+
+.brand-story h1{
+  margin-top: 50px;
+  text-align: center;
+  color: crimson;
+  font-size: 2rem;
+}
+.brand-story .b-story_photo img{
+  max-width: 400px;
+  height: auto;
+  scale: 1;
+  transition: all 0.3s ease-in-out;
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.brand-story .b-story_photo img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 15px 10px rgb(145, 7, 35));
+}
+
+.brand-story .b-story .story{
+  max-width: 700px;
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.brand-story .b-story p{
+  color: #E5E5E5;
+  padding: 10px;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.brand-story .mission .mission_description, 
+.brand-story .values .values_description,
+.brand-story .usp .usp_description {
+  color: #fff;
+  padding: 10px;
+  width: 600px;
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.values .values_description .values_desc_sec {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.brand-story .mission .mission_description h2, 
+.brand-story .values .values_description h2,
+.brand-story .usp .usp_description h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  width: 100%;
+  color: crimson;
+  margin-bottom: 10px;
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.brand-story .mission .mission_description .left {
+  animation: about_appear_left linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.brand-story .mission .mission_description .right {
+  animation: about_appear_right linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.brand-story .values .values_description .left {
+  animation: about_appear_left linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.brand-story .values .values_description .right {
+  animation: about_appear_right linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.brand-story .usp .usp_description .descript {
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+.b-story .b-story_photo,
+.mission .mission_photo,
+.values .values_photo,
+.usp .usp_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  padding: 10px;
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.mission .mission_photo img,
+.values .values_photo img, 
+.usp .usp_photo img{
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  scale: 1;
+  transition: all 0.3s ease-in-out;
+}
+.mission .mission_photo img:hover,
+.values .values_photo img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgb(145, 7, 35);
+}
+.usp .usp_photo img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 15px 10px rgb(145, 7, 35));
+}
+
+@media (max-width: 800px) {
+ .brand-story .mission .mission_description,
+  .brand-story .values .values_description,
+  .brand-story .usp .usp_description {
+    color: #E5E5E5;
+    padding: 10px;
+    width: 350px;
+ }
+  .b-story .b-story_photo,
+  .mission .mission_photo,
+  .values .values_photo,
+  .usp .usp_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+  .brand-story .b-story_photo img,
+  .mission .mission_photo img,
+  .values .values_photo img,
+  .usp .usp_photo img {
+    max-width: 300px;
+    height: auto;
+    scale: 1;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+
+/* Call-to-Action Styles */
+.promotions {
+  margin: 50px 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+.promotions .promo, .discount, .LTO {
+  padding: 20px 0 100px 0;
+  position: relative;
+  align-items: center;
+}
+.promotions .promo img, 
+.promotions .discount img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: brightness(40%);
+}
+.promotions .LTO img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: brightness(40%);
+}
+.promotions .head{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.promotions .head .ttl {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.promotions .head .ttl h2{
+  font-size: 2rem;
+  color: crimson;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.promotions .head .sec {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+.promotions .head .desc p {
+  color: #E5E5E5;
+  font-size: 1.25rem;
+}
+.promotions .head .desc {
+  display: flex;
+  padding: 20px;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 10px;
+  scale: 1;
+  transition: all 0.2s ease-in-out;
+}
+.promotions .head .desc:hover {
+  transform: translateY(-10px);
+  border: 1px solid crimson;
+  box-shadow: 0 10px 20px crimson;
+  background: linear-gradient(to bottom, #790000, #111);
+}
+.promotions .head .sec .descript_left {
+  animation: about_appear_left linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.promotions .head .sec .descript_center {
+  animation: about_appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.promotions .head .sec .descript_right {
+  animation: about_appear_right linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
